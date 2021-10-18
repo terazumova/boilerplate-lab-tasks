@@ -1,0 +1,38 @@
+{
+  "name": "boilerplate-lab-tasks",
+  "version": "1.0.0",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "stylelint projects/1-code-editor/src/ --custom-syntax stylelint-plugin-stylus/custom-syntax && stylelint projects/2-hi-coffee/src/ --custom-syntax stylelint-plugin-stylus/custom-syntax && stylelint projects/3-prediction-cards/src/ --custom-syntax stylelint-plugin-stylus/custom-syntax && stylelint projects/4-drag-it/src/ --custom-syntax stylelint-plugin-stylus/custom-syntax && eslint ./projects/1-code-editor/src/ && eslint ./projects/3-prediction-cards/src/ && eslint ./projects/4-drag-it/src/",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@types/webpack-env": "^1.16.2",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.4.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "husky": "^7.0.2",
+    "mini-css-extract-plugin": "^2.4.2",
+    "style-loader": "^3.3.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-plugin-stylus": "^0.11.0",
+    "stylus": "^0.55.0",
+    "stylus-loader": "^6.2.0",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.4",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "description": ""
+}
