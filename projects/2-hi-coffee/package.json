@@ -1,0 +1,29 @@
+{
+  "name": "skypro-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.coffee",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "stylelint src/ && eslint ./src/",
+    "style:lint": "stylelint src/",
+    "style:fix": "stylelint src/ --fix",
+    "js:lint": "eslint ./src/",
+    "js:fix": "eslint ./src/ --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "coffee-loader": "^3.0.0",
+    "coffeescript": "^2.6.1",
+    "eslint-plugin-coffee": "^0.1.15",
+    "file-loader": "^6.2.0",
+    "stylelint-plugin-stylus": "^0.11.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.1"
+  }
+}
